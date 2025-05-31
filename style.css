@@ -1,0 +1,1153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* primeira parte */
+
+#principal {
+    background-image: url(imgs/h1_hero1.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 103.2vh;
+}
+
+
+
+
+/* header */
+
+header>img {
+    margin-left: 12%;
+    margin-top: 3.8vh;
+    vertical-align: middle;
+    margin-bottom: 3.8vh;
+}
+
+.telefone {
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+    font-family: "Cabin", sans-serif;
+}
+
+.btn_free {
+    padding: 14px 24px;
+    background-color: #D6A04C;
+    border: 1px solid #D6A04C;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    font-family: "Cabin", sans-serif;
+}
+
+.btn_free:hover {
+    background: none;
+    color: #D6A04C;
+    border-color: #D6A04C;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* mwnu */
+#menu {
+    display: inline-block;
+    height: 10px;
+    width: 2%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+header>div>div>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    position: absolute;
+    z-index: 99;
+}
+
+#menu-1 {
+    width: 334px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: -350px;
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-1:hover {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    transition: 0.3s;
+    right: 0px;
+}
+
+input {
+    position: absolute;
+    z-index: 99;
+}
+
+.ul-aside {
+    color: white;
+    padding: 14vh;
+    margin-top: 20vh;
+    font-size: 25px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* play */
+
+#txt-chamada {
+    color: white;
+    margin-top: 21vh;
+    margin-left: 18%;
+    position: relative;
+}
+
+#txt-chamada>div>h1 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    line-height: 1.2;
+}
+
+#play {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.play-btn {
+    vertical-align: middle;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.5s;
+    margin-left: 30px;
+
+}
+
+.svg-play {
+    margin-top: 20%;
+    margin-left: 23%;
+    fill: #D6A04C;
+}
+
+.svg-play:hover svg {
+    fill: white;
+}
+
+.play-btn::after {
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border: 2px solid #D6A04C;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-btn::before {
+    content: "";
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-btn:hover svg {
+    fill: white;
+}
+
+.play-btn:hover {
+    background-color: #D6A04C;
+}
+
+
+
+
+
+/* div amarela e svg mouse */
+
+#main {
+    height: 200vh;
+}
+
+.svg-mouse {
+    margin-top: 20%;
+    margin-left: 15%;
+    fill: #D6A04C;
+}
+
+#amarelo {
+    margin-top: -4.8%;
+    height: 13vh;
+    width: 60%;
+    margin-left: 40%;
+    background-color: #D6A04C;
+}
+
+.txt-1-amarelo {
+    font-family: "Cabin", sans-serif;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: inline-block;
+    color: white;
+    position: absolute;
+}
+
+.txt-2-amarelo {
+    font-family: "Cabin", sans-serif;
+    font-size: 22px;
+    margin-left: 30%;
+    margin-top: 2%;
+    color: white;
+    position: absolute;
+}
+
+/* fim primeira parte */
+
+/*segunda parte */
+
+#fundo-escuro {
+    position: absolute;
+    background-color: #0B0016;
+    height: 200vh;
+    width: 100%;
+}
+
+
+
+
+/* about us */
+
+.about {
+    margin-top: 6%;
+    margin-left: 9%;
+    position: absolute;
+}
+
+.about-us {
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.txt-belara-1 {
+    color: white;
+    margin-top: 14%;
+    margin-left: 16%;
+    position: absolute;
+}
+
+.txt-belara-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.txt-belara-3 {
+    color: white;
+    margin-top: 14%;
+    margin-left: 51%;
+    position: absolute;
+}
+
+.txt-belara-4 {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.img-about-1 {
+    margin-top: 27%;
+    margin-left: 16%;
+}
+
+.learn-more {
+    font-family: "Cabin", sans-serif;
+    padding: 14px 24px;
+    background-color: 0;
+    border: 1px solid #D6A04C;
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+    position: absolute;
+    margin-left: 8.5%;
+    margin-top: 27%;
+    transition: 0.3s;
+}
+
+.learn-more:hover {
+    background: none;
+    color: white;
+    background-color: #D6A04C;
+    border-color: #D6A04C;
+    transition: 0.3s;
+}
+
+.img-about-2 {
+    margin-top: 27%;
+    margin-left: 8.5%;
+}
+
+
+
+
+
+
+/* what we do */
+
+.what {
+    margin-top: 10%;
+    margin-left: 9%;
+    position: absolute;
+}
+
+.what-do {
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+
+/* primeira img */
+.img-what-1 {
+    margin-top: 19%;
+    margin-left: 150px;
+    color: white;
+    width: 420px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+}
+
+.txt-grande {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+}
+
+.img-what-1:hover.img-what-1:hover:h2 {
+    color: #D6A04C;
+}
+
+.txt-pequeno {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 3vh;
+}
+
+.seta {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -10;
+    box-sizing: border-box;
+}
+
+.seta:hover {
+    z-index: 20;
+    background-color: white 50%;
+    z-index: +99;
+}
+
+#separar {
+    color: white;
+    width: 420px;
+    height: 400px;
+    padding: 3vh;
+    display: inline-block;
+}
+
+#separar:hover {
+    color: #D6A04C;
+    margin-top: 3%;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+/* segunda img */
+
+.img-what-2 {
+    margin-top: 19%;
+    margin-left: 580px;
+    color: white;
+    width: 420px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+}
+
+#separar-2 {
+    color: white;
+    width: 420px;
+    height: 400px;
+    padding: 3vh;
+    display: inline-block;
+}
+
+#separar-2:hover {
+    color: #D6A04C;
+    margin-top: 3%;
+    transition: 0.5s;
+}
+
+.seta-2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+.txt-grande-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+}
+
+.img-what-2:hover.img-what-2:hover:h2 {
+    color: #D6A04C;
+}
+
+.txt-pequeno-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 3vh;
+}
+
+
+
+/* terceira img */
+
+.img-what-3 {
+    margin-top: 19%;
+    margin-left: 1010px;
+    color: white;
+    width: 420px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+}
+
+#separar-3 {
+    color: white;
+    width: 420px;
+    height: 400px;
+    padding: 3vh;
+    display: inline-block;
+}
+
+#separar-3:hover {
+    color: #D6A04C;
+    margin-top: 3%;
+    transition: 0.5s;
+}
+
+.seta-3 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+.txt-grande-3 {
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+}
+
+.img-what-3:hover.img-what-3:hover:h2 {
+    color: #D6A04C;
+}
+
+.txt-pequeno-3 {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 3vh;
+}
+
+/* fim segunda parte */
+
+
+
+
+
+
+
+/* terceira parte */
+
+#projects {
+    position: absolute;
+    top: 2642px;
+    width: 100%;
+    height: 1055.5px;
+    background-color: #1e1e1e;
+    z-index: -2;
+    padding-bottom: 300px;
+}
+
+#projects #txt-projects {
+    top: 200px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 9%;
+    font-family: "Cabin", sans-serif;
+    color: #2A2A2A;
+    font-size: 180px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px #E9E3D9;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+}
+
+#projects img {
+    padding-top: 385px;
+    padding-left: 9.65%;
+    z-index: 1;
+    width: 100%;
+    padding-right: 9%;
+}
+
+#seta1 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #D6A04C inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    z-index: 1;
+    top: 720px;
+    left: 180px;
+}
+
+#seta2 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #D6A04C inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    z-index: 1;
+    top: 720px;
+    right: 180px;
+}
+
+#div-amarela {
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    background-color: #D6A04C;
+    z-index: 20;
+    margin-left: 9.65%;
+    margin-top: -7%;
+}
+
+
+#div-amarela h3 {
+    color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+}
+
+#div-amarela p {
+    color: white;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-family: "Cabin", sans-serif
+}
+
+#div-amarela:hover {
+    background-color: #111111;
+    transition: 0.4s;
+}
+
+h3:hover {
+    color: #D6A04C
+}
+
+
+
+/* why us */
+
+#why-us {
+    position: absolute;
+    top: 3697px;
+    width: 100%;
+    height: 866px;
+    background-color: #0B0016;
+    z-index: -10;
+    padding-bottom: 300px;
+}
+
+.why-us {
+    margin-left: 9.65%;
+    margin-right: 9.65%;
+    margin-top: 20%;
+}
+
+#why-us img {
+    position: absolute;
+    display: inline-block;
+}
+
+#txt-why-us {
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 55%;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+}
+
+.txt-why-1 {
+    color: white;
+    margin-top: 10%;
+    margin-left: 55%;
+    position: absolute;
+    display: inline-block;
+}
+
+.txt-why-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 27px;
+    color: white;
+    display: inline-block;
+}
+
+.learn-more-why {
+    font-family: "Cabin", sans-serif;
+    padding: 14px 24px;
+    background-color: 0;
+    border: 1px solid #D6A04C;
+    color: #D6A04C;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 27%;
+}
+
+.learn-more-why:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: #D6A04C;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+/* a base for good life */
+
+#good-life {
+    background-color: #0A0A0A;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 4562px;
+    z-index: -10;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.good-life {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    height: 370px;
+    margin-left: 9.65%;
+    z-index: 10;
+    color: white;
+}
+
+.svg-testi {
+    margin-top: 2%;
+    margin-left: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.txt-good-1 {
+    color: white;
+    margin-top: 6%;
+    margin-left: 23%;
+    position: absolute;
+    display: inline-block;
+}
+
+.txt-good-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 27px;
+    color: rgb(161, 161, 161);
+    display: inline-block;
+    text-align: center;
+}
+
+#seta--1 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    z-index: 25;
+    top: 180px;
+    left: 40px;
+}
+
+#seta--2 {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    z-index: 25;
+    top: 180px;
+    right: 40px;
+}
+
+.svg-founder {
+    margin-top: 16%;
+    margin-left: 48%;
+    display: inline-block;
+    position: absolute;
+}
+
+.txt-good-3 {
+    color: white;
+    margin-top: 23%;
+    margin-left: 40%;
+    position: absolute;
+    display: inline-block;
+}
+
+.txt-good-4 {
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Curating a Workplace */
+
+#work-place {
+    position: absolute;
+    top: 5160px;
+    width: 100%;
+    height: 800px;
+    background-color: #0B0016;
+}
+
+.work-place-1 {
+    margin-top: 0;
+    margin-left: 9.65%;
+    margin-right: 9.65%;
+    border: 1px solid rgb(145, 145, 145);
+    height: 295px;
+    width: 80%;
+}
+
+.work-place-1:hover {
+    background-color: rgb(145, 145, 145);
+}
+
+.work-place-1 span:hover {
+    color: #D6A04C;
+}
+
+.work-place-2 {
+    margin-top: 40px;
+    margin-left: 9.65%;
+    margin-right: 9.65%;
+    border: 1px solid rgb(145, 145, 145);
+    height: 295px;
+    width: 80%;
+}
+
+.img-work-place {
+    position: absolute;
+    display: inline-block;
+    padding: 30px;
+}
+
+.txt-work-1 {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 177px;
+}
+
+.txt-work-2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.txt-work-3 {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 620px;
+}
+
+.txt-work-4 {
+    font-family: "Cabin", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.txt-work-5 {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 115px;
+}
+
+.txt-work-6 {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.svg-seta {
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 1170px;
+    background-color: rgba(255, 255, 255, 0.185);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.svg-seta:hover {
+    background-color: #D6A04C;
+}
+
+.seta-svg {
+    margin-left: 14px;
+    margin-top: 12px;
+    width: 30px;
+    fill: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* rodape */
+
+#rodape {
+    position: absolute;
+    top: 5959.5px;
+    width: 100%;
+    height: 500px;
+    background-color: #1E1E1E;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rodape {
+    margin-left: 9.65%;
+    margin-right: 9.65%;
+    height: 295px;
+    width: 80%;
+}
+
+.img-belara {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.links {
+    position: absolute;
+    display: inline-block;
+    margin-left: 240px;
+    margin-top: 0;
+}
+
+.links h1 {
+    color: white;
+    font-size: 27px;
+    font-family: "Cabin", sans-serif;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.services {
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 480px;
+}
+
+.services h1 {
+    color: white;
+    font-size: 27px;
+    font-family: "Cabin", sans-serif;
+}
+
+.services a {
+    color: white;
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+}
+
+.services a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    position: absolute;
+    display: inline-block;
+    margin-left: 900px;
+    margin-top: 0;
+}
+
+.newsletter h1 {
+    color: white;
+    font-size: 27px;
+    font-family: "Cabin", sans-serif;
+}
+
+.newsletter p {
+    color: #A4A6AE;
+    ;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+}
+
+#email {
+    display: inline-block;
+    background: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.email {
+    width: 300px;
+    height: 60px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 6px;
+    color: #5C6168;
+    background: #fff;
+}
+
+/* .enviar {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: transform 0.2s;
+} */
+
+.div-send {
+    box-sizing: border-box;
+    margin-left: 296px;
+    z-index: 20;
+}
+
+.btn-send {
+    position: absolute;
+    border: 0;
+    cursor: pointer;
+    padding: 21px 30px;
+    line-height: 1;
+    border-radius: 0 3px 3px 0;
+    background: #D6A04C;
+}
+
+.img-send {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .caixa-email {
+  display: inline-block;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.caixa-email h2 {
+  margin-bottom: 20px;
+}
+
+.caixa-email input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.caixa-email input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caixa-email input[type="submit"]:hover {
+  background-color: #0056b3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#linha-rodape {
+    margin-left: 9.65%;
+    margin-right: 9.65%;
+    width: 80%;
+    height: 1px;
+    background-color: #A4A6AE;
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.copy p {
+    color: #A4A6AE;
+    ;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+}
+
+.copy span {
+    color: #D6A04C;
+    ;
+    font-family: "Cabin", sans-serif;
+    font-size: 17px;
+}
